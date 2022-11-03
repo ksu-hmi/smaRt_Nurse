@@ -2,7 +2,7 @@
 A new mobile test prep game for Registered Nursing students preparing to take for the NCLEX exam
 ## About this repo
 
-A collection of super beginner friendly tutorials and challenges to prepare for the National Certification Licensure Exam. 
+A collection of super beginner friendly tutorials that challenge and prepare future exam takers for the National Certification Licensure Exam. 
 Each file contains:
 - A tutorial explaining key concepts and definitions
 - A challenge or set of challenges to complete
