@@ -6,7 +6,7 @@
   - [ ] Allocate sources and libaries of common projects that will be beneficial the software
   - [ ] Access Github for code repositories that will be compatible for developmental needs. These repositories will be recycled and modified to match goal: 
       - Medicine Quiz: https://github.com/Viicenttt/medicine-quiz
-      - 
+      - Anatomy Game: https://github.com/ksu-hmi/Anatomy-Game
       - 
       - 
       - 
