@@ -1,0 +1,119 @@
+#import libraries first
+import statistics as s
+
+
+class Question:
+    def __init__(self, prompt, answer):
+        self.prompt= prompt
+        self.answer= answer
+
+questions_prompts = [
+    "1. What is is the correct meaning for angio?\n\n(a) mouth\n(b) water\n(c) lung\n(d) vessel\n",
+    "2. What is the prefix for 'above normal'?\n\n(a) poly\n(b) hypo\n(c) hyper\n(d) mega\n",
+    "3. What is the prefix for 'below normal'?\n\n(a) trans\n(b) semi\n(c) hypo\n(d) post\n",
+    "4. The suffix 'ectomy' refers to?\n\n(a) condition\n(b) incision\n(c) paralysis\n(d) growth\n",
+    "5. 'Skin' is the meaning of what root word?\n\n(a) derm\n(b) oro\n(c) myo\n(d) cyano\n",
+    "6. What is the suffix for inflammation?\n\n(a) tomy\n(b) itis\n(c) scope\n(d) osis\n",
+    "1+1=?\n\n(a) 2\n(b) 3\n(c) 4\n(d) 5\n",
+    "2+2=?\n\n(a) 2\n(b) 3\n(c) 4\n(d) 5\n",
+    "3+3=?\n\n(a) 2\n(b) 3\n(c) 4\n(d) 6\n",
+]
+
+question_list = [
+    Question(questions_prompts[0], "d"),
+    Question(questions_prompts[1], "c"),
+    Question(questions_prompts[2], "c"),
+    Question(questions_prompts[3], "b"),
+    Question(questions_prompts[4], "a"),
+    Question(questions_prompts[5], "b"),
+    Question(questions_prompts[6], "a"),
+    Question(questions_prompts[7], "c"),
+    Question(questions_prompts[8], "d"),
+]
+
+need_to_reviewlist = []
+
+students = {'Alex':[87,88,98],
+            'Sally':[88,67,93],
+            'Nboke':[90,88,78]}
+
+#Now we define functions. Functions encapsulate logic into reusable recipes that can be executed whenever we need them by calling their name with parentheses.
+def enterGrades():
+    nameToEnter = input('Student name: ')
+    gradeToEnter = input('Grade: ')
+    #This checks through the keys of the students dictionary to see if the name entered exactly matches any one in there.
+    if nameToEnter in students:
+        print('Adding grade for'+nameToEnter)
+        students[nameToEnter].append(float(gradeToEnter)) #float will have a .0
+        print(str(nameToEnter)+' now has these grades:')
+        print(students[nameToEnter])
+    else:
+        print('Student not found. Please check your spelling or go back and add if new.')
+
+def removeStudent():
+    nameToRemove = input('Who do you want to remove? ')
+    if nameToRemove in students:
+        print('Removing '+nameToRemove)
+        del students[nameToRemove]
+        print(students)
+    else:
+        print('Student not found.')
+
+def averageStudents():
+    for student in students:
+        grades = students[student]
+        average = s.mean(grades) #notice the s? we imported the statistuics module as s. Thus, we are using a fucntion called "mean()" from the statistics module.
+        print(student,' average ',average)
+        
+
+def run_test(question_list):
+    score = 0
+    for question in question_list :
+        print("\n Choose the best answer:\n")
+        ans = input(question.prompt + "Enter letter representing the correct answer: a/b/c/d? ")
+        if ans.lower() == question.answer:
+            print("Correct")
+            score += 1
+        else:
+            print("Wrong")
+            need_to_reviewlist.append(question.prompt)
+    print("You got " + str(score) + " out of " + str(len(question_list))+ " questions right.")
+    print ("\nYou need to review the following questions", need_to_reviewlist)
+        
+
+#######
+
+
+
+def main():
+    
+    print("""
+    The PocketNurse Test Prep
+
+    [1] - Enter Grades / Basic Skills
+    [2] - Remove Student / Pharmacology
+    [3] - Student Averages / Body Systems
+    [4] - Math problems / Anatomy / Body Systems / Medical Terms
+    [5] - Exit / Nothing
+    """)
+
+    action = input('Welcome to the PocketNurse\n What would you like to test your knowledge on today? (Enter a number )')
+    #Here we process their choice of what they want to do.
+    if action == '1':
+        #print('1 selected')
+        enterGrades()
+    elif action == '2':
+        #print('2 selected')
+        removeStudent()
+    elif action == '3':
+        #print('3 selected')
+        averageStudents()
+    elif action == '4':
+        #print('4 selected')
+        run_test(question_list)
+    elif action == '5':
+        #print ('5 selected')
+        exit()
+    else:
+        print('Valid option not selected.') #need to cause it to reprompt
+main()
