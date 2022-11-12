@@ -1,0 +1,185 @@
+## This is the test model to add other sections of questions and answers list
+#import libraries first
+import statistics as s
+
+
+class Question:
+    def __init__(self, prompt, answer):
+        self.prompt= prompt
+        self.answer= answer
+
+        
+## This is the section where questions and answers about pharmacology goes        
+questions_prompts1 = [
+    "1. What is another name for a Pharmacy?\n\n(a) drug house\n(b) drug store\n(c) drug dealer\n ",
+    "2. What is the title of the person who distributes the drugs?\n\n(a) drug dealer\n(b) pharmacist\n(c) candy man\n ",
+] 
+
+## the questions list is where you will put the correct answers that will be checked for matching the user input        
+question_list1 = [
+    Question(questions_prompts1[0], "b"),
+    Question(questions_prompts1[1], "b"),
+]        
+
+
+## This is the sections where the next set of Medical questions and answers go
+questions_prompts2 = [
+    "1. This is the section on Basic Skills\n\n(a) True\n(b) False\n",
+    "1+1=?\n\n(a) 2\n(b) 3\n(c) 4\n(d) 5\n",
+    "2+2=?\n\n(a) 2\n(b) 3\n(c) 4\n(d) 5\n",
+    "3+3=?\n\n(a) 2\n(b) 3\n(c) 4\n(d) 6\n",
+]        
+
+
+## the questions list is where you will put the correct answers that will be checked for matching the user input 
+question_list2 = [
+    Question(questions_prompts2[0], "a"),
+    Question(questions_prompts2[1], "a"),
+    Question(questions_prompts2[2], "c"),
+    Question(questions_prompts2[3], "d"),
+]
+        
+
+## This is the section where questions and answers about pharmacology goes        
+questions_prompts3 = [
+    "1. This is the section for Body Systems\n\n(a) True\n(b) False\n",
+    "2. What number comes after 2?\n\n(a) 3\n(b) 4\n(c) 5\n ",
+    "3. What is the title of the person who distributes the drugs?\n\n(a) drug dealer\n(b) pharmacist\n(c) candy man\n ",
+] 
+
+## the questions list is where you will put the correct answers that will be checked for matching the user input        
+question_list3 = [
+    Question(questions_prompts3[0], "a"),
+    Question(questions_prompts3[1], "a"),
+    Question(questions_prompts3[2], "b"),
+]      
+    
+    
+    
+        
+        
+questions_prompts4 = [
+    "1. What is is the correct meaning for angio?\n\n(a) mouth\n(b) water\n(c) lung\n(d) vessel\n",
+    "2. What is the prefix for 'above normal'?\n\n(a) poly\n(b) hypo\n(c) hyper\n(d) mega\n",
+    "3. What is the prefix for 'below normal'?\n\n(a) trans\n(b) semi\n(c) hypo\n(d) post\n",
+    "4. The suffix 'ectomy' refers to?\n\n(a) condition\n(b) incision\n(c) paralysis\n(d) growth\n",
+    "5. 'Skin' is the meaning of what root word?\n\n(a) derm\n(b) oro\n(c) myo\n(d) cyano\n",
+    "6. What is the suffix for inflammation?\n\n(a) tomy\n(b) itis\n(c) scope\n(d) osis\n",
+
+]
+
+question_list4 = [
+    Question(questions_prompts4[0], "d"),
+    Question(questions_prompts4[1], "c"),
+    Question(questions_prompts4[2], "c"),
+    Question(questions_prompts4[3], "b"),
+    Question(questions_prompts4[4], "a"),
+    Question(questions_prompts4[5], "b"),
+    
+]
+
+need_to_reviewlist = []
+
+
+        
+## This function is associated with option 1        
+def run_test(question_list1):
+    score = 0
+    for question in question_list1 :
+        print("\n Choose the best answer:\n")
+        ans = input(question.prompt + "Enter letter representing the correct answer: a/b/c/d? ")
+        if ans.lower() == question.answer:
+            print("Correct")
+            score += 1
+        else:
+            print("Wrong")
+            need_to_reviewlist.append(question.prompt)
+            #need_to_reviewlist.replace(\n)
+    print("You got " + str(score) + " out of " + str(len(question_list1))+ " questions right.")
+    print ("\nYou need to review the following questions", need_to_reviewlist)
+    
+## This function is associated with option 2    
+def run_test(question_list2):
+    score = 0
+    for question in question_list2 :
+        print("\n Choose the best answer:\n")
+        ans = input(question.prompt + "Enter letter representing the correct answer: a/b/c/d? ")
+        if ans.lower() == question.answer:
+            print("Correct")
+            score += 1
+        else:
+            print("Wrong")
+            need_to_reviewlist.append(question.prompt)
+            #need_to_reviewlist.replace(\n)
+    print("You got " + str(score) + " out of " + str(len(question_list2))+ " questions right.")
+    print ("\nYou need to review the following questions", need_to_reviewlist)
+    
+## This function is associated with option 3    
+def run_test(question_list3):
+    score = 0
+    for question in question_list3 :
+        print("\n Choose the best answer:\n")
+        ans = input(question.prompt + "Enter letter representing the correct answer: a/b/c/d? ")
+        if ans.lower() == question.answer:
+            print("Correct")
+            score += 1
+        else:
+            print("Wrong")
+            need_to_reviewlist.append(question.prompt)
+            #need_to_reviewlist.replace(\n)
+    print("You got " + str(score) + " out of " + str(len(question_list3))+ " questions right.")
+    print ("\nYou need to review the following questions", need_to_reviewlist)    
+
+    ## This function is associated with option 4
+def run_test(question_list4):
+    score = 0
+    for question in question_list4 :
+        print("\n Choose the best answer:\n")
+        ans = input(question.prompt + "Enter letter representing the correct answer: a/b/c/d? ")
+        if ans.lower() == question.answer:
+            print("Correct")
+            score += 1
+        else:
+            print("Wrong")
+            need_to_reviewlist.append(question.prompt)
+            #need_to_reviewlist.replace(\n)
+    print("You got " + str(score) + " out of " + str(len(question_list4))+ " questions right.")
+    print ("\nYou need to review the following questions", need_to_reviewlist)
+        
+
+#######
+
+
+
+def main():
+    
+    print("""
+    The PocketNurse Test Prep
+
+    [1] - Pharmacology Questions
+    [2] - Basic Skills
+    [3] - Body Systems
+    [4] - Anatomy / Body Systems / Medical Terms
+    [5] - Exit / Nothing
+    """)
+
+    action = input('Welcome to the PocketNurse\n What would you like to test your knowledge on today? (Enter a number )')
+    #Here we process their choice of what they want to do.
+    if action == '1':
+        #print('1 selected')
+        run_test(question_list1)
+    elif action == '2':
+        #print('2 selected')
+        run_test(question_list2)
+    elif action == '3':
+        #print('3 selected')
+        run_test(question_list3)
+    elif action == '4':
+        #print('4 selected')
+        run_test(question_list4)
+    elif action == '5':
+        #print ('5 selected')
+        exit()
+    else:
+        print('Valid option not selected.') #need to cause it to reprompt
+main()
