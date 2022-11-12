@@ -3,8 +3,8 @@
 
 ## Sprint #1: Checkmark when completed
   - [x] Create repositories in designated area
-  - [ ] Allocate sources and libaries of common projects that will be beneficial the software
-  - [ ] Access Github for code repositories that will be compatible for developmental needs. These repositories will be recycled and modified to match goal: 
+  - [x ] Allocate sources and libaries of common projects that will be beneficial the software
+  - [x ] Access Github for code repositories that will be compatible for developmental needs. These repositories will be recycled and modified to match goal: 
       - Medicine Quiz: https://github.com/Viicenttt/medicine-quiz
       - Anatomy Game: https://github.com/ksu-hmi/Anatomy-Game
       - Multiple_Choices: https://github.com/whymehin/Multiple_Choices/blob/master/multiple_choices.py
@@ -23,3 +23,4 @@
 ## Sprint #3: Checkmark when completed
 
 ## Findings:
+    Used the Multiple Choice code from github and also the GradeTracker code and fused them together to get the code functionality that we were needing. The Multiple Choice had a section that used object oriented programming and created a class for accessing and working with two types of list, one that contained questions and another that contained the answers to the questions. This answers list would be checked against the user input. The GradeTracker code was used because of the main menu and how it utilized and referenced the functions from the main menu. 
