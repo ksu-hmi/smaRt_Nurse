@@ -5,7 +5,7 @@
   - [x] Create repositories in designated area
   - [x ] Allocate sources and libaries of common projects that will be beneficial the software
   - [x ] Access Github for code repositories that will be compatible for developmental needs. These repositories will be recycled and modified to match goal: 
-      - Medicine Quiz: https://github.com/Viicenttt/medicine-quiz
+      - Medicine Quiz: https://github.com/Viincenttt/medicine-quiz
       - Anatomy Game: https://github.com/ksu-hmi/Anatomy-Game
       - Multiple_Choices: https://github.com/whymehin/Multiple_Choices/blob/master/multiple_choices.py
       - Fill in the Blank: https://github.com/amarch07/fill-in-blanks
