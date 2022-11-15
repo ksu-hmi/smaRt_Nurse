@@ -39,6 +39,11 @@ questions_prompts2 = [
     "13. How many mg is 2g of Tylenol? \n\n(a) 500mg\n(b) 1000mg\n(c) 2000mg\n(d) 200mg\n ",
     "14. Valium has been ordered for an anxious child weighing 40 pounds. Valium is to be given as a 0.05mg/kg dose. How much Valium should the child receive?n\n(a) 89 mg\n(b) 90mg\n(c) 100mg\n(d) 80mg\n",
     "15. How do you convert lb into kg when a medication dose is mg/kg?n\n(a) Divide lb by 3.3\n(b) Divide lb by 1.2\n(c) Divide lb by 2\n(d) Divide lb by 2.2\n ",
+    "16. A cardiac patient is prescribed 250mg of Digoxin a day. Digoxin comes om 100mg tablets. How many tablets should the patient take?n\n(a) 2.5 tabs\n(b) 1.5 tabs\n(c) 3 tabs\n(d) 2 tabs\n",
+    "17. The provider orders a patient to recieve 4g of ANCEF post-op. The medication label reads 250mg/mL. How many ml will the patient receive?n\n(a) 12mL\n(b) 16mL\n(c) 14mL\n(d) 10mL\n",
+    "18. An insulin vial holds 50 units. A patient weighing 70kg is prescribed to recieve an insulin dose of 0.5 units/kg. How many units will the patient receive?n\n(a) 20 units\n(b) 30 units\n(c) 35 units\n(d) 45 units\n",
+    "19. A patient is prescribed 600mg of acyclovir PO every 4 hours. Each tablet reads 200mg. How many tablets should the nurse administer per 12 hour shift?n\n(a) 10 tabs\n(b) 9 tabs\n(c) 13 tabs\n(d) 15 tabs\n",
+    "20. A patient is instructed to take a max of 30mg of Codeine in a 24 hour period. The bottle reads 5mg/mL. How many mL should the nurse give the patient? n\n(a) 5mL\n(b) 4mL\n(c) 10mL\n(d) 6mL\n",
 ]        
 
 
@@ -59,6 +64,11 @@ question_list2 = [
     Question(questions_prompts2[12], "c"),
     Question(questions_prompts2[13], "b"),
     Question(questions_prompts2[14], "d"),
+    Question(questions_prompts2[15], "a"),
+    Question(questions_prompts2[16], "b"),
+    Question(questions_prompts2[17], "c"),
+    Question(questions_prompts2[18], "b"),
+    Question(questions_prompts2[19], "d"),
 ]
         
 
