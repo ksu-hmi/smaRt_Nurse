@@ -34,6 +34,11 @@ questions_prompts2 = [
     "8. A post-op patient has been prescribed a one-time dose of 3mg Morphine. The medication comes in ampules of 10mg/mL. What volume should the nurse administer?\n\n(a) 1mL\n(b) .3mL\n(c) .4mL\n(d) .2mL\n",
     "9. There is an order for a patient to recieve 250mg of Acetaminophen PO TID. How many mg will the patient receive in one day?\n\n(a) 500mg\n(b) 600mg\n(c) 1000mg\n(d) 750mg\n",
     "10. The Cardiologist prescribes Gentamicin 5mg/kg a day PO. The patient weighs 154 lbs. How many mg will the patient take a day?\n\n(a) 300mg a day\n(b) 200mg a day\n(c) 280mg a day\n(d) 770mg a day\n ",
+    "11. A patient is prescribed to take Azithromycin 250mg PO once a day. The medications comes in 500mg/tablet. How many tablets will the patient take?n\n(a) 1 tab\n(b) .5 tab\n(c) 1.5 tab\n(d) .75 tab\n",
+    "12. You are caring for a patient who is to receive 1800mL of IV fluid daily. Currently the IV drip is set to deliver 50 drops per mL. What should the correct IV flow rate be (drops per hr)?n\n(a) 75 drops\n(b) 80 drops\n(c) 90 drops\n(d) The drop rate is accurate\n",
+    "13. How many mg is 2g of Tylenol? \n\n(a) 500mg\n(b) 1000mg\n(c) 2000mg\n(d) 200mg\n ",
+    "14. Valium has been ordered for an anxious child weighing 40 pounds. Valium is to be given as a 0.05mg/kg dose. How much Valium should the child receive?n\n(a) 89 mg\n(b) 90mg\n(c) 100mg\n(d) 80mg\n",
+    "15. How do you convert lb into kg when a medication dose is mg/kg?n\n(a) Divide lb by 3.3\n(b) Divide lb by 1.2\n(c) Divide lb by 2\n(d) Divide lb by 2.2\n ",
 ]        
 
 
@@ -49,6 +54,11 @@ question_list2 = [
     Question(questions_prompts2[7], "b"),
     Question(questions_prompts2[8], "d"),
     Question(questions_prompts2[9], "c"),
+    Question(questions_prompts2[10], "b"),
+    Question(questions_prompts2[11], "a"),
+    Question(questions_prompts2[12], "c"),
+    Question(questions_prompts2[13], "b"),
+    Question(questions_prompts2[14], "d"),
 ]
         
 
