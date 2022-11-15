@@ -9,13 +9,13 @@ class Question:
         self.answer= answer
 
         
-## This is the section where questions and answers about pharmacology goes        
+## Section 1 - Pharmacology - Questions - This is the section for questions and answers about pharmacology       
 questions_prompts1 = [
     "1. What is another name for a Pharmacy?\n\n(a) drug house\n(b) drug store\n(c) drug dealer\n ",
     "2. What is the title of the person who distributes the drugs?\n\n(a) drug dealer\n(b) pharmacist\n(c) candy man\n ",
 ] 
 
-## the questions list is where you will put the correct answers that will be checked for matching the user input        
+## Section 1 - Pharmacology - Answers - This questions list is where you will put the correct answers that will be checked for matching the user input        
 question_list1 = [
     Question(questions_prompts1[0], "b"),
     Question(questions_prompts1[1], "b"),
@@ -24,11 +24,10 @@ question_list1 = [
 
 ## This is the sections where the next set of Dosage Calculation questions and answers go
 questions_prompts2 = [
-    "1. This is the section on Basic Skills\n\n(a) True\n(b) False\n",
-    "A patient has an order for Clindamycin 500mg  every 6 hours. How many tablets will the nurse adminster in if the tablets are in 250 mg doses?\n\n(a) 3 tabs\n(b) 2 tabs\n(c) 4 tabs\n(d) 1 tab\n",
-    "A nurse has to adminster 150mg of a medication.The label of the vial reads '100mg per  mL'. How many mL will the nurse draw?\n\n(a) 1.5mL\n(b) 3.5mL\n(c) 2mL\n(d) 1mL\n",
-    "A  child is to receive 500mg of an antibiotic. The label on the bottle reads 250mg/5mL. How many mL will the nurse give??\n\n(a) 15mL\n(b) 20mL\n(c) 10mL\n(d) 5mL\n",
-    "The patient is prescribed 1g daily of Ascorbic Acid. The bottle comes in 250mg tablets. How many tablets will you instruct the patient to take?  \n\n(a) 3 tabs a day\n(b) 2 tabs a day\n(c) 5 tabs a day\n(d) 4 tabs a day\n",
+    "1. A patient has an order for Clindamycin 500mg  every 6 hours. How many tablets will the nurse adminster in if the tablets are in 250 mg doses?\n\n(a) 3 tabs\n(b) 2 tabs\n(c) 4 tabs\n(d) 1 tab\n",
+    "2. A nurse has to adminster 150mg of a medication.The label of the vial reads '100mg per  mL'. How many mL will the nurse draw?\n\n(a) 1.5mL\n(b) 3.5mL\n(c) 2mL\n(d) 1mL\n",
+    "3. A  child is to receive 500mg of an antibiotic. The label on the bottle reads 250mg/5mL. How many mL will the nurse give??\n\n(a) 15mL\n(b) 20mL\n(c) 10mL\n(d) 5mL\n",
+    "4. The patient is prescribed 1g daily of Ascorbic Acid. The bottle comes in 250mg tablets. How many tablets will you instruct the patient to take?  \n\n(a) 3 tabs a day\n(b) 2 tabs a day\n(c) 5 tabs a day\n(d) 4 tabs a day\n",
 ]        
 
 
