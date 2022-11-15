@@ -28,6 +28,12 @@ questions_prompts2 = [
     "2. A nurse has to adminster 150mg of a medication.The label of the vial reads '100mg per  mL'. How many mL will the nurse draw?\n\n(a) 1.5mL\n(b) 3.5mL\n(c) 2mL\n(d) 1mL\n",
     "3. A  child is to receive 500mg of an antibiotic. The label on the bottle reads 250mg/5mL. How many mL will the nurse give??\n\n(a) 15mL\n(b) 20mL\n(c) 10mL\n(d) 5mL\n",
     "4. The patient is prescribed 1g daily of Ascorbic Acid. The bottle comes in 250mg tablets. How many tablets will you instruct the patient to take?  \n\n(a) 3 tabs a day\n(b) 2 tabs a day\n(c) 5 tabs a day\n(d) 4 tabs a day\n",
+    "5. A nurse is to administer 275mg of a medication IM. The vial is labeled for a concentration of 100mg/mL. What volume of the drug should the nurse administer?\n\n(a) 1.7 mL\n(b) 2mL\n(c) 2.75mL\n(d) 5mL\n",
+    "6. You are preparing to administer 80mg of Solu-medrol IV to a patient diagnosed with Pneumonia. The vial is labeled 120mg/2mL. What is the correct amount to adminsiter to the patient?\n\n(a) 1.3 mL\n(b) 3mL\n(c) 1.4mL\n(d) 1.5mL\n",
+    "7. The OB Nurse receives an order to administer 25mg of Demerol for a patient in labor. The vial reads 50mg/1mL. How much medication should the nurse draw up?\n\n(a) 1.5 mL\n(b) .2mL\n(c) .8mL\n(d) .5mL\n",
+    "8. A post-op patient has been prescribed a one-time dose of 3mg Morphine. The medication comes in ampules of 10mg/mL. What volume should the nurse administer?\n\n(a) 1mL\n(b) .3mL\n(c) .4mL\n(d) .2mL\n",
+    "9. There is an order for a patient to recieve 250mg of Acetaminophen PO TID. How many mg will the patient receive in one day?\n\n(a) 500mg\n(b) 600mg\n(c) 1000mg\n(d) 750mg\n",
+    "10. The Cardiologist prescribes Gentamicin 5mg/kg a day PO. The patient weighs 154 lbs. How many mg will the patient take a day?\n\n(a) 300mg a day\n(b) 200mg a day\n(c) 280mg a day\n(d) 770mg a day\n ",
 ]        
 
 
@@ -37,6 +43,12 @@ question_list2 = [
     Question(questions_prompts2[1], "a"),
     Question(questions_prompts2[2], "c"),
     Question(questions_prompts2[3], "d"),
+    Question(questions_prompts2[4], "c"),
+    Question(questions_prompts2[5], "a"),
+    Question(questions_prompts2[6], "d"),
+    Question(questions_prompts2[7], "b"),
+    Question(questions_prompts2[8], "d"),
+    Question(questions_prompts2[9], "c"),
 ]
         
 
@@ -157,8 +169,8 @@ def main():
     The PocketNurse Test Prep
 
     [1] - Pharmacology Questions
-    [2] - Basic Skills
-    [3] - Body Systems
+    [2] - Dosage Calculations
+    [3] - Basic SKills
     [4] - Anatomy / Body Systems / Medical Terms
     [5] - Exit / Nothing
     """)
