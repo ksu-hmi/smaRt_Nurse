@@ -48,7 +48,14 @@ question_list1 = [
     Question(questions_prompts1[9], "a"),
     Question(questions_prompts1[10], "b"),
     Question(questions_prompts1[11], "d"),
-      
+    Question(questions_prompts1[12], "a"),
+    Question(questions_prompts1[13], "c"),
+    Question(questions_prompts1[14], "c"),
+    Question(questions_prompts1[15], "c"),
+    Question(questions_prompts1[16], "b"),
+    Question(questions_prompts1[17], "d"),
+    Question(questions_prompts1[18], "a"),
+    Question(questions_prompts1[19], "a"), 
     
 
 
