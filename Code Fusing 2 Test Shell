@@ -174,9 +174,16 @@ def run_test(question_list4):
         else:
             print("Wrong")
             need_to_reviewlist.append(question.prompt)
-            #need_to_reviewlist.replace(\n)
+            
     print("You got " + str(score) + " out of " + str(len(question_list4))+ " questions right.")
-    print ("\nYou need to review the following questions", need_to_reviewlist)
+    
+    #this code will create a new review list and replace the \n with two spaces
+    new_reviewlist = [item.replace('\n', ' ') for item in need_to_reviewlist]
+    
+    #this code will create another new review list that will separate the questions to be reviewed and put them on new lines
+    new_line_reviewlist = '[' + ',\n'.join(new_reviewlist) + ']'
+    
+    print ("\nYou need to review the following questions:\n\n", new_line_reviewlist)
         
 
 #######
