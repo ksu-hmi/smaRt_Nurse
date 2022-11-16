@@ -114,9 +114,12 @@ question_list2 = [
 
 ## This is the section where questions and answers about pharmacology goes        
 questions_prompts3 = [
-    "1. This is the section for Body Systems\n\n(a) True\n(b) False\n",
-    "2. What number comes after 2?\n\n(a) 3\n(b) 4\n(c) 5\n ",
-    "3. What is the title of the person who distributes the drugs?\n\n(a) drug dealer\n(b) pharmacist\n(c) candy man\n ",
+    "1. Which lab would you order to measure White Blood Cells?n\n(a) CBC\n(b) CMP\n(c) UA\n(d) BMP\n ",
+    "2. When donning PPE, what should be put thing you on?\n\n(a) gloves\n(b) mask\n(c) gown\n(d) eye wear\n ",
+    "3. What disease agent causes the common cold?\n\n(a) bacteria\n(b) virus\n(c) fungus\n(d) parasite\n ",
+    "4. What should be assessed every 15 minutes for an hour for a patient post-op knee repair?\n\(a) Blood Pressure\n(b) Temperature\n(c) Pain Level\n(d) Pulse points\n",
+    "5. Four patients show up to the E.R and are complaining of Tachycardia. Which HR would you treat first?\n\(a) 98\n(b) 103\n(c) 132\n(d) 89\n",
+    "6. A patient is experiencing diarrhea for 3 days. What electrolyte imbalance is the patient at risk for?\n\(a) Hypokalemia\n(b) Hyperkalemia\n(c) Hyponatremia\n(d) Hypernatremia\n ",
 ] 
 
 ## the questions list is where you will put the correct answers that will be checked for matching the user input        
@@ -124,6 +127,9 @@ question_list3 = [
     Question(questions_prompts3[0], "a"),
     Question(questions_prompts3[1], "a"),
     Question(questions_prompts3[2], "b"),
+    Question(questions_prompts3[3], "d"),
+    Question(questions_prompts3[4], "c"),
+    Question(questions_prompts3[5], "a"),
 ]      
     
     
