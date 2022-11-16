@@ -11,8 +11,25 @@ class Question:
         
 ## Section 1 - Pharmacology - Questions - This is the section for questions and answers about pharmacology       
 questions_prompts1 = [
-    "1. What is another name for a Pharmacy?\n\n(a) drug house\n(b) drug store\n(c) drug dealer\n ",
-    "2. What is the title of the person who distributes the drugs?\n\n(a) drug dealer\n(b) pharmacist\n(c) candy man\n ",
+    "1. The nurse assesses an upper body rash and decreased urine output. What is the nurse's priority action?\n\n(a) Hold the next dose of vancomycin (Vancocin) and notify the physician.\n(b) Obtain a stat X-ray and notify the physician.\n(c) Administer an antihistamine and notify the physician.\n(d) Obtain a sterile urine specimen and notify the physician\n",
+    "2. Following surgery, a client is placed on cefotaxime (Claforan). The assessment for possible adverse effects should include observing for?\n\n(a) diarrhea \n(b) headache \n(c) constipation \n(d) tachycardia\ n",
+    "3. Discharge planning for the client prescribed tetracycline will include which instruction?\n\n(a) Take the medication with antacids.\n(b) Take the medication with iron supplements.\n(c) Do not take the medication with milk.\n(d) Decrease the amount of vitamins.\n",
+    "4. The physician orders penicillin for a female client who has a sinus infection. What is a priority question to ask the client prior to administering the medication?\n\n(a) Are you pregnant?\n(b) Do you plan to become pregnant?\n(c) Are you breastfeeding?\n(d) Are you taking birth control pills? \n",
+    "5. The female client has a fungal infection and will receive nystatin (Mycostatin). What assessment data is critical for the nurse to review prior to administering this medication?\n\n(a) The type of diet the client is eating\n(b) The amount of fat in the client's diet\n(c) Whether the patient could be pregnant \n(d) The client's height and weight\n",
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 ] 
 
 ## Section 1 - Pharmacology - Answers - This questions list is where you will put the correct answers that will be checked for matching the user input        
