@@ -30,27 +30,21 @@ questions_prompts1 = [
     "17. Oral decongestants differ from intranasal decongestants in that oral decongestants?\n\n(a) are more effective at relieving severe congestion.\n(b) have more systemic effects.\n(c) can cause rebound congestion.\n(d) have high efficacy\n",
     "18. Which over-the-counter (OTC) antihistamine combination contains an analgesic property?\n\n(a) Sudafed PE Sinus and Allergy\n(b) Triaminic Cold/Allergy\n(c) Tavist Allergy 12-hour\n(d) Actifed Plus\n",
     "19. The client receives topical vitamin A for the treatment of psoriasis. Which laboratory test will the nurse review when assessing for an adverse effect?\n\n(a) Serum calcium level\n(b) Hemoglobin level\n(c) Thyroid profile\n(d) Serum potassium level\n",
-    "20. The patient receives imipramine (Tofranil) as treatment for depression. He is admitted to the emergency department following an intentional overdose of this medication. What will the priority assessment by the nurse include? 1\n\n(a) The patient's cardiac status\n(b) The patient's liver function\n(c) The patient's renal status\n(d) The patient's neurological function\n",
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    "20. The patient receives imipramine (Tofranil) as treatment for depression. He is admitted to the emergency department following an intentional overdose of this medication. What will the priority assessment by the nurse include? 1\n\n(a) The patient's cardiac status\n(b) The patient's liver function\n(c) The patient's renal status\n(d) The patient's neurological function\n",  
     
 ] 
 
 ## Section 1 - Pharmacology - Answers - This questions list is where you will put the correct answers that will be checked for matching the user input        
 question_list1 = [
-    Question(questions_prompts1[0], "b"),
-    Question(questions_prompts1[1], "b"),
+     Question(questions_prompts1[0], "a"), 
+    Question(questions_prompts1[1], "a"),
+    Question(questions_prompts1[2], "c"),
+    Question(questions_prompts1[3], "d"),
+    Question(questions_prompts1[4], "c"),
+      
+    
+
+
 ]        
 
 
