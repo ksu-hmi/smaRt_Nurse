@@ -137,10 +137,22 @@ question_list3 = [
 ## Section 4 - Anatomy - Questions - This is the section for questions and answers about Anatomy           
         
 questions_prompts4 = [
-     "1 What is Human Anatomy?\n\n(a) Human anatomy is the study of the functions of body parts\n(b) Human anatomy is the study of the structure of the human body\n(c) Human anatomy is the study of bacteria and viruses\n(d) Human anatomy is the study of disease and its causes\n",
+    "1 What is Human Anatomy?\n\n(a) Human anatomy is the study of the functions of body parts\n(b) Human anatomy is the study of the structure of the human body\n(c) Human anatomy is the study of bacteria and viruses\n(d) Human anatomy is the study of disease and its causes\n",
     "2. What is Human Physiology?\n\n(a) Human physiology is the scientific study of the mind and behavior\n(b) Human physiology is the study of the internal and external structures of the human body\n(c) Human physiology is the study of the functions of body parts\n(d) Human physiology is the study of microscopic organisms\n",
     "3. How many bones does an adult human skeleton have?\n\n(a) 205\n(b) 207\n(c) 209\n(d) 206\n",
     "4. Which of the following part of human skeleton forms the helmet for the protection of human brain?\n\n(a) Cranium\n(b) Temporal bone\n(c) Hyoid\n(d) Mandible\n",
+    "5. How many bones does a human ankles have?\n\n(a) 7\n(b) 6\n(c) 9\n(d) 8\n",
+    "6. Which of the following type of cartilage is present at the joints of long bones in humans?\n\n(a) Fibrous\n(b) Hyaline\n(c) Elastic\n(d) Calcified\n",
+    "7. Which of the following human ligament is called y shaped ligament of Bigelow? \n\n(a) The glenoidal labrum\n(b) The Ischiocapsular\n(c) Illiofemoral ligament\n(d) The Pubocapsular\n",
+    "8. Which of the following structures keep blood flowing unidirectionally in humans?\n\n(a) Bronchiole\n(b) Neuron\n(c) Septum\n(d) Valves\n",
+    "9. Which of the following is the vestigial bony part of the human skeleton?\n\n(a) Cranium\n(b) Coccyx\n(c) Cervical\n(d) Clavicle\n",
+    "10. Which of the following clinical sign indicates ischaemia of forearm?\n\n(a) Carpel tunnel syndrome\n(b) Hand of benediction\n(c) Ulnar claw\n(d) Volkmann’s Contracture\n",
+    
+
+
+
+
+
 
 ]
 
