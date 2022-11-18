@@ -163,6 +163,12 @@ question_list4 = [
     Question(questions_prompts4[3], "a"),
     Question(questions_prompts4[4], "a"),
     Question(questions_prompts4[5], "b"),
+    Question(questions_prompts4[6], "c"),
+    Question(questions_prompts4[7], "d"),
+    Question(questions_prompts4[8], "b"),
+    Question(questions_prompts4[9], "d"), 
+    
+    
     
 ]
 
