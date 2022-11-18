@@ -120,6 +120,11 @@ questions_prompts3 = [
     "4. What should be assessed every 15 minutes for an hour for a patient post-op knee repair?\n\(a) Blood Pressure\n(b) Temperature\n(c) Pain Level\n(d) Pulse points\n",
     "5. Four patients show up to the E.R and are complaining of Tachycardia. Which HR would you treat first?\n\(a) 98\n(b) 103\n(c) 132\n(d) 89\n",
     "6. A patient is experiencing diarrhea for 3 days. What electrolyte imbalance is the patient at risk for?\n\(a) Hypokalemia\n(b) Hyperkalemia\n(c) Hyponatremia\n(d) Hypernatremia\n ",
+    "7. What type of precaution would use taking care of a patient diagnosed with C. Diff?\n\n(a) Droplet\n(b) Contact\n(c) Airborne\n(d) Neutropenic",
+    "8. You see a patient laying lifelessly on the floor. What is your first action?\n\n(a) Chest Compressions\n(b) Rescue Breaths\n(c) Pulse Check\n(d) Shake Patient 'Are you okay?'",
+    "9. Which HR range indicates Bradycardia?\n\n(a) <60\n(b) 60-70\n(c) 70-80\n(d) 90-100",
+    "10. What term describes a temporary cessation of breathing? *Often times seen during sleep.\n\n(a) Dyspnea\n(b) Orthopnea\n(c) Apnea\n(d) Hypernea",
+    "11. A patient comes in with exerbations of asthma. What should the MD order?\n\n(a) bronchodilator\n(b) Corticosteroid \n(c) Mucolytics\n(d) Vaccine",
 ] 
 
 ## the questions list is where you will put the correct answers that will be checked for matching the user input        
@@ -130,6 +135,11 @@ question_list3 = [
     Question(questions_prompts3[3], "d"),
     Question(questions_prompts3[4], "c"),
     Question(questions_prompts3[5], "a"),
+    Question(questions_prompts3[6], "b"),
+    Question(questions_prompts3[7], "d"),
+    Question(questions_prompts3[8], "a"),
+    Question(questions_prompts3[9], "c"),
+    Question(questions_prompts3[10], "b"),
 ]      
     
     
