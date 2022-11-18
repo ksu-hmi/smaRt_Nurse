@@ -176,7 +176,17 @@ question_list4 = [
     Question(questions_prompts4[7], "d"),
     Question(questions_prompts4[8], "b"),
     Question(questions_prompts4[9], "d"), 
-    
+    Question(questions_prompts4[10], "d"),
+    Question(questions_prompts4[11], "c"),
+    Question(questions_prompts4[12], "a"),
+    Question(questions_prompts4[13], "b"),
+    Question(questions_prompts4[14], "c"),
+    Question(questions_prompts4[15], "b"),
+    Question(questions_prompts4[16], "d"),
+    Question(questions_prompts4[17], "a"),
+    Question(questions_prompts4[18], "d"),
+    Question(questions_prompts4[19], "b"),
+
     
     
 ]
