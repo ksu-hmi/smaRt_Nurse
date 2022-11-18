@@ -151,16 +151,16 @@ questions_prompts4 = [
 
 
 
-
+## Section 4 - Anatomy  - Answers - This questions list is where you will put the correct answers that will be checked for matching the user input        
 
 
 ]
 
 question_list4 = [
-    Question(questions_prompts4[0], "d"),
-    Question(questions_prompts4[1], "c"),
-    Question(questions_prompts4[2], "c"),
-    Question(questions_prompts4[3], "b"),
+    Question(questions_prompts4[0], "b"),
+    Question(questions_prompts4[1], "b"),
+    Question(questions_prompts4[2], "d"),
+    Question(questions_prompts4[3], "a"),
     Question(questions_prompts4[4], "a"),
     Question(questions_prompts4[5], "b"),
     
