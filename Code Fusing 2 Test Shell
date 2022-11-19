@@ -235,9 +235,11 @@ def run_test(question_list1):
         else:
             print("Wrong")
             need_to_reviewlist.append(question.prompt)
-            #need_to_reviewlist.replace(\n)
+            need_to_reviewlist.replace(\n)
+    new_reviewlist = [item.replace('\n', ' ') for item in need_to_reviewlist]
+    new_line_reviewlist = '[' + ',\n'.join(new_reviewlist) + ']'
     print("You got " + str(score) + " out of " + str(len(question_list1))+ " questions right.")
-    print ("\nYou need to review the following questions", need_to_reviewlist)
+    print ("\nYou need to review the following questions:\n\n", new_line_reviewlist)    
     
 ## This function is associated with option 2    
 def run_test(question_list2):
