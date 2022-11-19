@@ -125,6 +125,15 @@ questions_prompts3 = [
     "9. Which HR range indicates Bradycardia?\n\n(a) <60\n(b) 60-70\n(c) 70-80\n(d) 90-100",
     "10. What term describes a temporary cessation of breathing? *Often times seen during sleep.\n\n(a) Dyspnea\n(b) Orthopnea\n(c) Apnea\n(d) Hypernea",
     "11. A patient comes in with exerbations of asthma. What should the MD order?\n\n(a) bronchodilator\n(b) Corticosteroid \n(c) Mucolytics\n(d) Vaccine",
+    "12. You are in the ER triaging patients. Which patient should be given medical attention first?\n\n(a) Patient with SOB\n(b) Patient with chest pain\n(c) Patient with a blood nose\n(d) Patient with a fever",
+    "13. Which nursing intervention can assist a patient with Chronic Venous Insufficency?\n\n(a) Place ice on extremities\n(b) Apply elastic wrap on legs\n(c) Administer an NSAID\n(d) Elevate legs 2-3 times a day",
+    "14. Which Respiratory Rate is normal for a 26 year old patient?\n\n(a) 8-10 breaths per min\n(b) 20-30 breaths per min\n(c) 12-20 breaths per min\n(d) 5-10 breaths per min",
+    "15. You are discharging a patient with a history of smoking, who has been diagnosed with COPD. What education should you give the patient?\n\n(a) Do not exercise\n(b) Stop smoking\n(c) Do not receive the Flu vaccine\n(d) Wearing a mask in large crowds is optional",
+    "16. A patient has been admitted complaining of fatigue and chills for 3 months. You review the lab results and notice a very low RBC. What is this an indication of?\n\n(a) Anemia\n(b) Thrombocytopenia\n(c) Leukopenia\n(d) Leukemia",
+    "17. True or False: Type 1 Diabetes occurs when the Pancreas stops producing Insulin.\n\n(a) True\n\n(b) False",
+    "18. True or False: During CPR, when the AED signals for a shock you should not stop compressions\n\n(a) True\n(b) False",
+    "19. True or False: When delegating tasks to an LPN, LPNs can not take on tasks that involve Teaching or Assessment.\n\n(a) True\n(b) False",
+    "20. True or False: Graves disease is another name for Hyperthyroidism.\n\n(a) True\n(b) False",
 ] 
 
 ## the questions list is where you will put the correct answers that will be checked for matching the user input        
@@ -140,6 +149,15 @@ question_list3 = [
     Question(questions_prompts3[8], "a"),
     Question(questions_prompts3[9], "c"),
     Question(questions_prompts3[10], "b"),
+    Question(questions_prompts3[11], "a"),
+    Question(questions_prompts3[12], "d"),
+    Question(questions_prompts3[13], "c"),
+    Question(questions_prompts3[14], "b"),
+    Question(questions_prompts3[15], "a"),
+    Question(questions_prompts3[16], "a"),
+    Question(questions_prompts3[17], "b"),
+    Question(questions_prompts3[18], "a"),
+    Question(questions_prompts3[19], "a"),
 ]      
     
     
