@@ -61,8 +61,8 @@ question_list1 = [
 
 ]        
 
+## Section 2 - Dosage Calculation - Questions - This is the section for questions and answers about Dosage Calculation    
 
-## This is the sections where the next set of Dosage Calculation questions and answers go
 questions_prompts2 = [
     "1. A patient has an order for Clindamycin 500mg  every 6 hours. How many tablets will the nurse adminster in if the tablets are in 250 mg doses?\n\n(a) 3 tabs\n(b) 2 tabs\n(c) 4 tabs\n(d) 1 tab\n",
     "2. A nurse has to adminster 150mg of a medication.The label of the vial reads '100mg per  mL'. How many mL will the nurse draw?\n\n(a) 1.5mL\n(b) 3.5mL\n(c) 2mL\n(d) 1mL\n",
@@ -86,8 +86,8 @@ questions_prompts2 = [
     "20. A patient is instructed to take a max of 30mg of Codeine in a 24 hour period. The bottle reads 5mg/mL. How many mL should the nurse give the patient? n\n(a) 5mL\n(b) 4mL\n(c) 10mL\n(d) 6mL\n",
 ]        
 
+##Section 2 - Dosage Calculation - Answers - This questions list is where you will put the correct answers that will be checked for matching the user input     
 
-## the questions list is where you will put the correct answers that will be checked for matching the user input 
 question_list2 = [
     Question(questions_prompts2[0], "b"),
     Question(questions_prompts2[1], "a"),
@@ -111,8 +111,7 @@ question_list2 = [
     Question(questions_prompts2[19], "d"),
 ]
         
-
-## This is the section where questions and answers about pharmacology goes        
+## Section 3 - Basic Skills - Questions - This is the section for questions and answers about Basic Skills   
 questions_prompts3 = [
     "1. Which lab would you order to measure White Blood Cells?n\n(a) CBC\n(b) CMP\n(c) UA\n(d) BMP\n ",
     "2. When donning PPE, what should be put thing you on?\n\n(a) gloves\n(b) mask\n(c) gown\n(d) eye wear\n ",
@@ -136,7 +135,7 @@ questions_prompts3 = [
     "20. True or False: Graves disease is another name for Hyperthyroidism.\n\n(a) True\n(b) False",
 ] 
 
-## the questions list is where you will put the correct answers that will be checked for matching the user input        
+##Section 3 - Badic Skills - Answers - This questions list is where you will put the correct answers that will be checked for matching the user input     
 question_list3 = [
     Question(questions_prompts3[0], "a"),
     Question(questions_prompts3[1], "a"),
@@ -253,7 +252,7 @@ def run_test(question_list2):
         else:
             print("Wrong")
             need_to_reviewlist.append(question.prompt)
-            need_to_reviewlist.replace(\n)
+          
     new_reviewlist = [item.replace('\n', ' ') for item in need_to_reviewlist]
     new_line_reviewlist = '[' + ',\n'.join(new_reviewlist) + ']'
     print("You got " + str(score) + " out of " + str(len(question_list2))+ " questions right.")
@@ -310,7 +309,7 @@ def run_test(question_list4):
 def main():
     
     print("""
-    The PocketNurse Test Prep
+    The smaRtNurse Test Prep
 
     [1] - Pharmacology Questions
     [2] - Dosage Calculations
@@ -319,7 +318,7 @@ def main():
     [5] - Exit / Nothing
     """)
 
-    action = input('Welcome to the PocketNurse\n What would you like to test your knowledge on today? (Enter a number )')
+    action = input('Welcome to the smaRtNurse\n What would you like to test your knowledge on today? (Enter a number )')
     #Here we process their choice of what they want to do.
     if action == '1':
         #print('1 selected')
