@@ -21,9 +21,9 @@
 - [x ] Paste URLs to 2 code commits 
 
 ## Sprint #3: Checkmark when completed
-- [] Output is clean/accurate
-- [] Ensure all question answers are correct
-- [] Complete Splash Page/PPT
+- [x] Output is clean/accurate
+- [x] Ensure all question answers are correct
+- [x] Complete Splash Page/PPT
 
 ## Findings:
     Used the Multiple Choice code from github and also the GradeTracker code and fused them together to get the code functionality that we were needing. The Multiple Choice had a section that used object oriented programming and created a class for accessing and working with two types of list, one that contained questions and another that contained the answers to the questions. This answers list would be checked against the user input. The GradeTracker code was used because of the main menu and how it utilized and referenced the functions from the main menu.Once the answer list is checked against the user input, the total number of correct answers is provided. If the user incorrectly answered a question, that missed question is provided, indicating to the user that the missed question needs to be reviewed.The functionality that was used, can easily be adapted to allow the user to indicate the levels of complexity from easy to difficult. This option is slated for the next application release. 
