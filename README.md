@@ -1,5 +1,5 @@
-# PocketNurse_NCLEX_Test_Prep
-A new mobile test prep game for Registered Nursing students preparing to take for the NCLEX exam
+# smaRtNurse NCLEX Test Prep
+A new mobile test prep game for Registered Nursing students preparing to take for the NCLEX-RN exam
 ## About this repo
 
 A collection of super beginner friendly tutorials that challenge and prepare future exam takers for the National Certification Licensure Exam. 
